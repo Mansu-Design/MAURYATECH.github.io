@@ -1,0 +1,63 @@
+html{ scroll-behavior:smooth;}
+*{margin: 0; padding: 0; box-sizing:border-box; font-family: 'Lobster', cursive;}
+#loader{ height:100vh; width:100%; background:url(../loader.gif) no-repeat center;}
+a{ text-decoration:none;} a:hover{ text-decoration:none;} li{ list-style:none; font-size:25px;}
+ p{ font-size:0.9rem; line-height:1.6; font-weight:400;color:#333333; text-align:justify} 
+ .extra-div h2, .service-div h2{ font-size:30px; font-weight:bold; line-height:1.1;margin:20px 0 15px 0; word-spacing:4px;}
+ i{ color:#09C}
+ /* actual css start*/
+#head{ font-size:50px;}
+.header{ width:100%; height:100vh;  background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(../download.png);
+background-repeat:no-repeat; background-size:100% 100%; position:relative;
+ clip-path:polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0); }
+.header:before{ content:""; position:absolute; top:0%; bottom:0%; left:0; right:0; opacity:.3;
+ background:linear-gradient(to right, #000 0%, #333 0%, #999 0%, #CCCCCC 100%); z-index:-1; }
+.navbar:before{ content:""; position:absolute; top:0%; bottom:0%; left:0; right:0; opacity:.3;
+ background:linear-gradient(to leftt, #000 0%, #333 0%, #666 0%, #999 100%); }
+ .nav-item a{ color:#06F !important;}
+.header-section{ width:100%; height:inherit; color:#fff; text-align:center; position:relative;}
+.center-div{ position:absolute; width:100%; height:auto; top:50%; left:50%; transform:translate(-50%, -50%);
+ -ms-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%)}
+h1{ font-size:60px;} 
+.header-button a{border:2px solid #CCC; border-radius:100px; margin:0 5px;padding: 12px 35px; outline:none; color:#FFF;
+font-size:30px; font-weight:900; line-height:1.4; text-align:center;}
+.header-button a:hover{ background-color:#fff; color:#000;}
+/*extra header start*/
+.header-extradiv{ width:100%; height:auto; margin:100px 0;}
+.extra-div{ background-color:#fff; border:medium none; padding:50px; border-radius:3px; transition:0.3s;}
+.extra-div:hover{box-shadow:0 0 20px 0 rgba(0,0,0,.4); transform:translateY(-20px)}
+/* end extra header*/
+/*service offer css start*/
+.serviceoffer{ background:#f7f7f9; padding:50px 0; margin-bottom:50px; }
+.heading{margin-bottom:50px;}
+.heading h1{ font-size:50px; font-weight:600;}
+.names h3{ color:#2e2e2e;font-size:21px;}
+.serviceicons{ display:flex; align-items:center; justify-content:center;}
+.progress{ height:15px; margin-bottom:35px !important; color:#900 !important}
+.pro{color:#900 !important}
+/*service offer css end*/
+/*contact css start*/
+.contact{ width:100%; height:100vh; padding:80px 0; position:relative;}
+.contact:before{ content:""; position:absolute; top:0; left:0; bottom:0; right:0;
+background:linear-gradient(310deg, #00cccc 55%, #fff 0%); z-index:-1}
+.form-button button{border:1px solid #00cccc; border-radius:100px; margin:0 5px; padding:12px 35px;outline:none; color:#00CCCC;font-size:25px;
+font-weight:400; line-height:1.4; text-align:center; background:transparent;}
+form:hover .form-button button{background:#fff; color:#009999; box-shadow:0 0 20px 0 rgba(0,0,0,0.3)}
+::placeholder{font-size:15px;}
+/*contact css end*/
+/*footer css start*/
+.footersection{ width:100%; height:auto; padding:70px 0 20px 0;background:#009999; position:relative;}
+.footersection p{ color:#FFF; font-size:20px;}
+.footersection li a{ font-size:20px; font-weight:400; line-height:1.6; color:#fff; text-align:center;  }
+.footersection h3{ color:#CCC; margin-bottom:25px;font-size:30px !important; font-weight:bold; text-shadow:0 2px 5px rgba(0,0,0,.4)}
+/*footer css end*/
+
+@media(max-width:768px){ .nav-item{ text-align:center;}}
+
+
+
+
+
+
+
+
